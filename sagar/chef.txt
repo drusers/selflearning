@@ -1,0 +1,7 @@
+wget https://web-dl.packagecloud.io/chef/stable/packages/ubuntu/trusty/chef-server-core_12.0.8-1_amd64.deb
+
+
+chef-server-ctl user-create USER_NAME FIRST_NAME LAST_NAME EMAIL 'PASSWORD' --filename --filename FILE_NAME
+
+chef-server-ctl user-create sagaraut sagar raut sagarraut9@gmail.com 'abc@123' --filename --filename /root/sagarraut.pem
+
